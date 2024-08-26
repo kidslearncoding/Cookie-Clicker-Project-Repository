@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(251, 250, 205);
+}
+
+.cookie-jar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.cookie-jar img {
+    width: 300px;
+}
+
+.cookie-jar h2 {
+    font-size: 34px;
+}
+
+.cookie-jar .click-button {
+    color: white;
+    font-size: 18px;
+    background-color: rgb(254, 193, 108);
+    border: none;
+    height: 34px;
+    width: 340px;
+    cursor: pointer;
+    transition: 0.2s all ease-in;
+}
+
+.cookie-jar .click-button:hover {
+    background-color: rgb(200, 149, 78);
+}
+
+.cookie-jar .reset-button {
+    color: white;
+    background-color: pink;
+    border: none;
+    font-size: 18px;
+    margin-top: 28px;
+    height: 34px;
+    width: 340px;
+    cursor: pointer;
+    transition: 0.2s all ease-in;
+}
